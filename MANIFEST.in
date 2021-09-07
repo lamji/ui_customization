@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ui_customization *.css
+recursive-include ui_customization *.csv
+recursive-include ui_customization *.html
+recursive-include ui_customization *.ico
+recursive-include ui_customization *.js
+recursive-include ui_customization *.json
+recursive-include ui_customization *.md
+recursive-include ui_customization *.png
+recursive-include ui_customization *.py
+recursive-include ui_customization *.svg
+recursive-include ui_customization *.txt
+recursive-exclude ui_customization *.pyc
