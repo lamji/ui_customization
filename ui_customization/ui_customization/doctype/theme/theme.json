@@ -1,0 +1,128 @@
+{
+ "actions": [],
+ "autoname": "field:name1",
+ "creation": "2021-09-07 13:23:55.093624",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "background_color",
+  "navbar_background_color",
+  "header_bakground_color",
+  "sidebar_background",
+  "sidebar_text_color",
+  "column_break_7",
+  "button_background_color",
+  "button_background_text_color",
+  "files_column",
+  "navbar_logo",
+  "use_image",
+  "login_image",
+  "use_video",
+  "video"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "background_color",
+   "fieldtype": "Color",
+   "label": "Background Color"
+  },
+  {
+   "fieldname": "navbar_background_color",
+   "fieldtype": "Color",
+   "label": "NavBar Background Color"
+  },
+  {
+   "fieldname": "sidebar_background",
+   "fieldtype": "Color",
+   "label": "SideBar Background"
+  },
+  {
+   "fieldname": "sidebar_text_color",
+   "fieldtype": "Color",
+   "label": "SideBar Text Color"
+  },
+  {
+   "fieldname": "navbar_logo",
+   "fieldtype": "Attach Image",
+   "label": "Logo"
+  },
+  {
+   "fieldname": "login_image",
+   "fieldtype": "Attach Image",
+   "label": "Login Image"
+  },
+  {
+   "fieldname": "video",
+   "fieldtype": "Attach",
+   "label": "Video"
+  },
+  {
+   "fieldname": "header_bakground_color",
+   "fieldtype": "Color",
+   "label": "Header Bakground Color"
+  },
+  {
+   "fieldname": "button_background_color",
+   "fieldtype": "Color",
+   "label": "Button Background Color"
+  },
+  {
+   "fieldname": "button_background_text_color",
+   "fieldtype": "Color",
+   "label": "Button Background Text Color"
+  },
+  {
+   "fieldname": "files_column",
+   "fieldtype": "Section Break",
+   "label": "Files"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "use_image",
+   "fieldtype": "Check",
+   "label": "Use Image"
+  },
+  {
+   "default": "0",
+   "fieldname": "use_video",
+   "fieldtype": "Check",
+   "label": "Use video"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2021-09-08 13:23:46.285725",
+ "modified_by": "Administrator",
+ "module": "Ui Customization",
+ "name": "Theme",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
