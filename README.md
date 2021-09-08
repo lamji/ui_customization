@@ -1,7 +1,5 @@
-## Ui Customization
+bench get-app hhttps://github.com/lamji/ui_customization.git
 
-Custom UI
+bench --site (sitename) install-app payment_integration
 
-#### License
-
-MIT
+bench clear-cache
