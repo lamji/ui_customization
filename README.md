@@ -1,4 +1,4 @@
-bench get-app hhttps://github.com/lamji/ui_customization.git
+bench get-app https://github.com/lamji/ui_customization.git
 
 bench --site (sitename) install-app ui_customization
 
